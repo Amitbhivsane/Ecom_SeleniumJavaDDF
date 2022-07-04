@@ -7,69 +7,69 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MyAccount {
 	//1. create object of webdriver
-		WebDriver ldriver;
+	WebDriver ldriver;
 
-		//constructor
-		public MyAccount(WebDriver rdriver)
-		{
-			ldriver = rdriver;
-
-
-			PageFactory.initElements(rdriver, this);
-		}
+	//constructor
+	public MyAccount(WebDriver rdriver)
+	{
+		ldriver = rdriver;
 
 
-		//identify webelements
-		
-		//create new account
-		@FindBy(id = "email_create") 
-		WebElement createEmailId;
+		PageFactory.initElements(rdriver, this);
+	}
 
-		@FindBy(id="SubmitCreate")
-		WebElement SubmitCreate;
 
-		
-		//Already registered users
-		@FindBy(id = "email") 
-		WebElement registeredUsersEmail;
-		
-		@FindBy(id = "passwd") 
-		WebElement registeredUsersPwd;
-		
-		@FindBy(id = "SubmitLogin")
-		WebElement submitLogin;
-		
-		
-		//identify action on webelement
-		
-		
-		
-		public void enterCreateEmailAddress(String emailAdd) 
-		{
-			createEmailId.sendKeys(emailAdd);
-		}
+	//identify webelements
 
-		
-		public void clickSubmitCreate()
-		{
-			SubmitCreate.click();
-		}
-		
-		//ACTIONS METHODS FOR ALREADY REGISTERED USERS
-		
-		public void enterEmailAddress(String emailAdd) 
-		{
-			registeredUsersEmail.sendKeys(emailAdd);
-		}
+	//create new account
+	@FindBy(id = "email_create") 
+	WebElement createEmailId;
 
-		public void enterPassword(String pwd) 
-		{
-			registeredUsersPwd.sendKeys(pwd);
-		}
+	@FindBy(id="SubmitCreate")
+	WebElement SubmitCreate;
 
-		
-		public void clickSignIn()
-		{
-			submitLogin.click();
-		}
+
+	//Already registered users
+	@FindBy(id = "email") 
+	WebElement registeredUsersEmail;
+
+	@FindBy(id = "passwd") 
+	WebElement registeredUsersPwd;
+
+	@FindBy(id = "SubmitLogin")
+	WebElement submitLogin;
+
+
+	//identify action on webelement
+
+
+
+	public void enterCreateEmailAddress(String emailAdd) 
+	{
+		createEmailId.sendKeys(emailAdd);
+	}
+
+
+	public void clickSubmitCreate()
+	{
+		SubmitCreate.click();
+	}
+
+	//ACTIONS METHODS FOR ALREADY REGISTERED USERS
+
+	public void enterEmailAddress(String emailAdd) 
+	{
+		registeredUsersEmail.sendKeys(emailAdd);
+	}
+
+	public void enterPassword(String pwd) 
+	{
+		registeredUsersPwd.sendKeys(pwd);
+	}
+
+
+	public void clickSignIn()
+	{
+		submitLogin.click();
+	}
 }

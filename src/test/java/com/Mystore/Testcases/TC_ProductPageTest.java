@@ -182,7 +182,7 @@ public class TC_ProductPageTest extends BaseClass{
 	}
 
 
-	@Test
+	@Test(enabled = true)
 	public void verifyAddToWishlistWithoutLogin() throws IOException
 	{
 		logger.info("\n***************TestCase verifyAddToWishlistWithoutLogin started*****************"); 

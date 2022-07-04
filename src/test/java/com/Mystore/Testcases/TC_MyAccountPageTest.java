@@ -25,7 +25,7 @@ public class TC_MyAccountPageTest extends BaseClass{
 		logger.info("Clicked on sign in link");
 
 		MyAccount myAcpg = new MyAccount(driver);
-		myAcpg.enterCreateEmailAddress("csam@gmail.com");
+		myAcpg.enterCreateEmailAddress("cs9233@gmail.com");
 		logger.info("Email address entered in create account section.");
 
 		myAcpg.clickSubmitCreate();
@@ -94,7 +94,7 @@ public class TC_MyAccountPageTest extends BaseClass{
 		if(userName.equals("Prachi Gupta"))
 		{
 			logger.info("VerifyLogin - Passed");
-			regUser.clickOnSignOut();
+			//regUser.clickOnSignOut();
 			Assert.assertTrue(true);
 		}
 		else
@@ -111,7 +111,7 @@ public class TC_MyAccountPageTest extends BaseClass{
 	}
 
 
-	@Test
+	@Test(enabled = true)
 	public void VerifySignOut() throws IOException 
 	{
 

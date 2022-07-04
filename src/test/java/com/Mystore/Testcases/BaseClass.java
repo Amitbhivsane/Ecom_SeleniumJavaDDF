@@ -33,9 +33,9 @@ public class BaseClass{
 	
 	public static WebDriver driver;
 	public static Logger logger;
-	
+
 	@BeforeClass
-	public void setup()
+	public void setup() throws InterruptedException
 	{
 
 		//launch browser
@@ -61,9 +61,8 @@ public class BaseClass{
 
 		}
 
-		driver.manage().window().maximize();
 		//implicit wait of 10 secs
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		//for logging
 		logger = LogManager.getLogger("MyStoreV1");
@@ -71,6 +70,7 @@ public class BaseClass{
 		//open url
 		driver.get(url);
 		logger.info("url opened");
+		Thread.sleep(2000);
 
 	}
 
@@ -100,5 +100,4 @@ public class BaseClass{
 		FileUtils.copyFile(src, dest);
 	}
 	
-
 }

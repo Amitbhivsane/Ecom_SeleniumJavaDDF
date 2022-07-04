@@ -23,6 +23,7 @@ public class IndexPage {
 		@FindBy(linkText = "Sign in") 
 		WebElement signIn;
 		
+		
 		@FindBy(xpath="(//a[text()='T-shirts'])[2]")
 		WebElement tshirtMenu;
 		
@@ -41,5 +42,4 @@ public class IndexPage {
 		{
 			tshirtMenu.click();
 		}
-		
 }
