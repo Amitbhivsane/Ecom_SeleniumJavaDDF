@@ -185,3 +185,198 @@
 [INFO ] 2022-07-03 11:22:45.549 [main] MyStoreV1 - 
 ***************TestCase verifyAddToWishlistWithoutLogin started*****************
 [INFO ] 2022-07-03 11:22:49.986 [main] MyStoreV1 - verifyAddToWishlistWithoutLogin - failed
+[INFO ] 2022-07-04 18:47:07.486 [main] MyStoreV1 - url opened
+[INFO ] 2022-07-04 18:47:09.529 [main] MyStoreV1 - ***************TestCase Verify Login starts*****************
+[INFO ] 2022-07-04 18:47:12.326 [main] MyStoreV1 - Clicked on sign in link
+[INFO ] 2022-07-04 18:47:12.437 [main] MyStoreV1 - Entered email address
+[INFO ] 2022-07-04 18:47:12.533 [main] MyStoreV1 - Entered password
+[INFO ] 2022-07-04 18:47:14.988 [main] MyStoreV1 - Clicked on sign in link..
+[INFO ] 2022-07-04 18:47:15.046 [main] MyStoreV1 - VerifyLogin - Passed
+[INFO ] 2022-07-04 18:47:15.050 [main] MyStoreV1 - ***************TestCase Verify Login ends*****************
+[INFO ] 2022-07-04 18:47:15.084 [main] MyStoreV1 - ***************TestCase Verify Sign out starts*****************
+[INFO ] 2022-07-04 18:47:35.534 [main] MyStoreV1 - url opened
+[INFO ] 2022-07-04 18:47:37.549 [main] MyStoreV1 - 
+***************TestCase Buy Product started*****************
+[INFO ] 2022-07-04 18:47:41.336 [main] MyStoreV1 - User Email and Password entered.
+[INFO ] 2022-07-04 18:47:44.061 [main] MyStoreV1 - Sign In link clicked
+[INFO ] 2022-07-04 18:47:44.141 [main] MyStoreV1 - T-shirt entered in search box
+[INFO ] 2022-07-04 18:47:47.145 [main] MyStoreV1 - clicked on search button
+[INFO ] 2022-07-04 18:47:53.111 [main] MyStoreV1 - Clicked on more button
+[INFO ] 2022-07-04 18:47:55.214 [main] MyStoreV1 - quantity 2 entereed
+[INFO ] 2022-07-04 18:47:55.343 [main] MyStoreV1 - size M entered
+[INFO ] 2022-07-04 18:47:55.429 [main] MyStoreV1 - Clicked on add to cart
+[INFO ] 2022-07-04 18:48:03.055 [main] MyStoreV1 - Clicked on proceed to checkout on product page
+[INFO ] 2022-07-04 18:48:05.723 [main] MyStoreV1 - Clicked on proceed to checkout on order summary page
+[INFO ] 2022-07-04 18:48:08.642 [main] MyStoreV1 - Clicked on proceed to checkout on order address page
+[INFO ] 2022-07-04 18:48:08.706 [main] MyStoreV1 - selecged term of service check box
+[INFO ] 2022-07-04 18:48:12.677 [main] MyStoreV1 - Clicked on proceed to checkout on order shipping page
+[INFO ] 2022-07-04 18:48:12.693 [main] MyStoreV1 - http://automationpractice.com/index.php?controller=order&multi-shipping=
+[INFO ] 2022-07-04 18:48:15.005 [main] MyStoreV1 - Clicked on pay by cheque
+[INFO ] 2022-07-04 18:48:19.219 [main] MyStoreV1 - Clicked on confirmed order
+[INFO ] 2022-07-04 18:48:19.261 [main] MyStoreV1 - VerifyBuyProduct - Passed
+[INFO ] 2022-07-04 18:48:24.997 [main] MyStoreV1 - ***************TestCase BuyProduct ends*****************
+[INFO ] 2022-07-04 18:48:25.000 [main] MyStoreV1 - 
+***************TestCase Search Product started*****************
+[INFO ] 2022-07-04 18:48:30.343 [main] MyStoreV1 - User Email and Password entered.
+[INFO ] 2022-07-04 18:48:35.515 [main] MyStoreV1 - Sign In link clicked
+[INFO ] 2022-07-04 18:48:46.418 [main] MyStoreV1 - Search Product testcase - Passed
+[INFO ] 2022-07-04 18:48:46.418 [main] MyStoreV1 - ***************TestCase Search Product ends*****************
+[INFO ] 2022-07-04 18:48:46.420 [main] MyStoreV1 - 
+***************TestCase verifyAddToWishlistWithoutLogin started*****************
+[INFO ] 2022-07-04 18:48:55.465 [main] MyStoreV1 - verifyAddToWishlistWithoutLogin - failed
+[INFO ] 2022-07-04 18:52:39.486 [main] MyStoreV1 - url opened
+[INFO ] 2022-07-04 18:52:41.526 [main] MyStoreV1 - ***************TestCase Verify Login starts*****************
+[INFO ] 2022-07-04 18:52:57.843 [main] MyStoreV1 - Clicked on sign in link
+[INFO ] 2022-07-04 18:52:57.972 [main] MyStoreV1 - Entered email address
+[INFO ] 2022-07-04 18:52:58.064 [main] MyStoreV1 - Entered password
+[INFO ] 2022-07-04 18:53:07.647 [main] MyStoreV1 - Clicked on sign in link..
+[INFO ] 2022-07-04 18:53:07.705 [main] MyStoreV1 - VerifyLogin - Passed
+[INFO ] 2022-07-04 18:53:07.710 [main] MyStoreV1 - ***************TestCase Verify Login ends*****************
+[INFO ] 2022-07-04 18:53:07.749 [main] MyStoreV1 - ***************TestCase Verify Sign out starts*****************
+[INFO ] 2022-07-04 18:53:50.264 [main] MyStoreV1 - url opened
+[INFO ] 2022-07-04 18:53:52.283 [main] MyStoreV1 - 
+***************TestCase Buy Product started*****************
+[INFO ] 2022-07-04 18:54:16.511 [main] MyStoreV1 - User Email and Password entered.
+[INFO ] 2022-07-04 18:54:21.403 [main] MyStoreV1 - Sign In link clicked
+[INFO ] 2022-07-04 18:54:21.487 [main] MyStoreV1 - T-shirt entered in search box
+[INFO ] 2022-07-04 18:54:27.418 [main] MyStoreV1 - clicked on search button
+[INFO ] 2022-07-04 18:54:33.031 [main] MyStoreV1 - Clicked on more button
+[INFO ] 2022-07-04 18:54:35.145 [main] MyStoreV1 - quantity 2 entereed
+[INFO ] 2022-07-04 18:54:35.281 [main] MyStoreV1 - size M entered
+[INFO ] 2022-07-04 18:54:35.366 [main] MyStoreV1 - Clicked on add to cart
+[INFO ] 2022-07-04 18:54:46.787 [main] MyStoreV1 - Clicked on proceed to checkout on product page
+[INFO ] 2022-07-04 18:54:49.937 [main] MyStoreV1 - Clicked on proceed to checkout on order summary page
+[INFO ] 2022-07-04 18:54:52.363 [main] MyStoreV1 - Clicked on proceed to checkout on order address page
+[INFO ] 2022-07-04 18:54:52.463 [main] MyStoreV1 - selecged term of service check box
+[INFO ] 2022-07-04 18:54:55.071 [main] MyStoreV1 - Clicked on proceed to checkout on order shipping page
+[INFO ] 2022-07-04 18:54:55.085 [main] MyStoreV1 - http://automationpractice.com/index.php?controller=order&multi-shipping=
+[INFO ] 2022-07-04 18:54:57.276 [main] MyStoreV1 - Clicked on pay by cheque
+[INFO ] 2022-07-04 18:55:03.137 [main] MyStoreV1 - Clicked on confirmed order
+[INFO ] 2022-07-04 18:55:03.180 [main] MyStoreV1 - VerifyBuyProduct - Passed
+[INFO ] 2022-07-04 18:55:10.793 [main] MyStoreV1 - ***************TestCase BuyProduct ends*****************
+[INFO ] 2022-07-04 18:55:10.800 [main] MyStoreV1 - 
+***************TestCase Search Product started*****************
+[INFO ] 2022-07-04 18:55:18.773 [main] MyStoreV1 - User Email and Password entered.
+[INFO ] 2022-07-04 18:55:25.557 [main] MyStoreV1 - Sign In link clicked
+[INFO ] 2022-07-04 18:55:30.798 [main] MyStoreV1 - Search Product testcase - Passed
+[INFO ] 2022-07-04 18:55:30.798 [main] MyStoreV1 - ***************TestCase Search Product ends*****************
+[INFO ] 2022-07-04 18:55:30.800 [main] MyStoreV1 - 
+***************TestCase verifyAddToWishlistWithoutLogin started*****************
+[INFO ] 2022-07-04 18:56:13.183 [main] MyStoreV1 - verifyAddToWishlistWithoutLogin - failed
+[INFO ] 2022-07-07 21:50:24.193 [main] MyStoreV1 - url opened
+[INFO ] 2022-07-07 21:50:26.219 [main] MyStoreV1 - ***************TestCase Verify Login starts*****************
+[INFO ] 2022-07-07 21:50:33.206 [main] MyStoreV1 - Clicked on sign in link
+[INFO ] 2022-07-07 21:50:33.373 [main] MyStoreV1 - Entered email address
+[INFO ] 2022-07-07 21:50:33.487 [main] MyStoreV1 - Entered password
+[INFO ] 2022-07-07 21:50:35.890 [main] MyStoreV1 - Clicked on sign in link..
+[INFO ] 2022-07-07 21:50:35.934 [main] MyStoreV1 - VerifyLogin - Passed
+[INFO ] 2022-07-07 21:50:35.936 [main] MyStoreV1 - ***************TestCase Verify Login ends*****************
+[INFO ] 2022-07-07 21:50:35.960 [main] MyStoreV1 - ***************TestCase Verify Sign out starts*****************
+[INFO ] 2022-07-07 21:50:56.400 [main] MyStoreV1 - url opened
+[INFO ] 2022-07-07 21:50:58.413 [main] MyStoreV1 - 
+***************TestCase Buy Product started*****************
+[INFO ] 2022-07-07 21:51:03.042 [main] MyStoreV1 - User Email and Password entered.
+[INFO ] 2022-07-07 21:51:06.349 [main] MyStoreV1 - Sign In link clicked
+[INFO ] 2022-07-07 21:51:06.415 [main] MyStoreV1 - T-shirt entered in search box
+[INFO ] 2022-07-07 21:51:10.499 [main] MyStoreV1 - clicked on search button
+[INFO ] 2022-07-07 21:51:24.640 [main] MyStoreV1 - Clicked on more button
+[INFO ] 2022-07-07 21:51:26.731 [main] MyStoreV1 - quantity 2 entereed
+[INFO ] 2022-07-07 21:51:26.844 [main] MyStoreV1 - size M entered
+[INFO ] 2022-07-07 21:51:26.923 [main] MyStoreV1 - Clicked on add to cart
+[INFO ] 2022-07-07 21:51:38.737 [main] MyStoreV1 - Clicked on proceed to checkout on product page
+[INFO ] 2022-07-07 21:51:42.412 [main] MyStoreV1 - Clicked on proceed to checkout on order summary page
+[INFO ] 2022-07-07 21:51:45.595 [main] MyStoreV1 - Clicked on proceed to checkout on order address page
+[INFO ] 2022-07-07 21:51:45.669 [main] MyStoreV1 - selecged term of service check box
+[INFO ] 2022-07-07 21:51:47.341 [main] MyStoreV1 - Clicked on proceed to checkout on order shipping page
+[INFO ] 2022-07-07 21:51:47.346 [main] MyStoreV1 - http://automationpractice.com/index.php?controller=order&multi-shipping=
+[INFO ] 2022-07-07 21:51:48.705 [main] MyStoreV1 - Clicked on pay by cheque
+[INFO ] 2022-07-07 21:51:54.907 [main] MyStoreV1 - Clicked on confirmed order
+[INFO ] 2022-07-07 21:51:54.944 [main] MyStoreV1 - VerifyBuyProduct - Passed
+[INFO ] 2022-07-07 21:52:02.525 [main] MyStoreV1 - ***************TestCase BuyProduct ends*****************
+[INFO ] 2022-07-07 21:52:02.530 [main] MyStoreV1 - 
+***************TestCase Search Product started*****************
+[INFO ] 2022-07-07 21:52:06.848 [main] MyStoreV1 - User Email and Password entered.
+[INFO ] 2022-07-07 21:52:11.243 [main] MyStoreV1 - Sign In link clicked
+[INFO ] 2022-07-07 21:52:14.075 [main] MyStoreV1 - Search Product testcase - Passed
+[INFO ] 2022-07-07 21:52:14.075 [main] MyStoreV1 - ***************TestCase Search Product ends*****************
+[INFO ] 2022-07-07 21:52:14.080 [main] MyStoreV1 - 
+***************TestCase verifyAddToWishlistWithoutLogin started*****************
+[INFO ] 2022-07-07 21:52:19.244 [main] MyStoreV1 - verifyAddToWishlistWithoutLogin - failed
+[INFO ] 2022-07-07 21:57:52.084 [main] MyStoreV1 - url opened
+[INFO ] 2022-07-07 21:57:54.119 [main] MyStoreV1 - ***************TestCase Verify Login starts*****************
+[INFO ] 2022-07-07 21:58:06.656 [main] MyStoreV1 - Clicked on sign in link
+[INFO ] 2022-07-07 21:58:06.780 [main] MyStoreV1 - Entered email address
+[INFO ] 2022-07-07 21:58:06.867 [main] MyStoreV1 - Entered password
+[INFO ] 2022-07-07 21:58:15.334 [main] MyStoreV1 - Clicked on sign in link..
+[INFO ] 2022-07-07 21:58:15.385 [main] MyStoreV1 - VerifyLogin - Passed
+[INFO ] 2022-07-07 21:58:15.390 [main] MyStoreV1 - ***************TestCase Verify Login ends*****************
+[INFO ] 2022-07-07 21:58:15.433 [main] MyStoreV1 - ***************TestCase Verify Sign out starts*****************
+[INFO ] 2022-07-07 21:58:39.103 [main] MyStoreV1 - url opened
+[INFO ] 2022-07-07 21:58:41.120 [main] MyStoreV1 - 
+***************TestCase Buy Product started*****************
+[INFO ] 2022-07-07 21:58:47.297 [main] MyStoreV1 - User Email and Password entered.
+[INFO ] 2022-07-07 21:58:55.484 [main] MyStoreV1 - Sign In link clicked
+[INFO ] 2022-07-07 21:58:55.548 [main] MyStoreV1 - T-shirt entered in search box
+[INFO ] 2022-07-07 21:59:02.541 [main] MyStoreV1 - clicked on search button
+[INFO ] 2022-07-07 21:59:05.635 [main] MyStoreV1 - Clicked on more button
+[INFO ] 2022-07-07 21:59:07.727 [main] MyStoreV1 - quantity 2 entereed
+[INFO ] 2022-07-07 21:59:07.838 [main] MyStoreV1 - size M entered
+[INFO ] 2022-07-07 21:59:07.896 [main] MyStoreV1 - Clicked on add to cart
+[INFO ] 2022-07-07 21:59:12.887 [main] MyStoreV1 - Clicked on proceed to checkout on product page
+[INFO ] 2022-07-07 21:59:17.567 [main] MyStoreV1 - Clicked on proceed to checkout on order summary page
+[INFO ] 2022-07-07 21:59:35.201 [main] MyStoreV1 - Clicked on proceed to checkout on order address page
+[INFO ] 2022-07-07 21:59:35.271 [main] MyStoreV1 - selecged term of service check box
+[INFO ] 2022-07-07 21:59:41.650 [main] MyStoreV1 - Clicked on proceed to checkout on order shipping page
+[INFO ] 2022-07-07 21:59:41.666 [main] MyStoreV1 - http://automationpractice.com/index.php?controller=order&multi-shipping=
+[INFO ] 2022-07-07 21:59:43.486 [main] MyStoreV1 - Clicked on pay by cheque
+[INFO ] 2022-07-07 21:59:51.024 [main] MyStoreV1 - Clicked on confirmed order
+[INFO ] 2022-07-07 21:59:51.055 [main] MyStoreV1 - VerifyBuyProduct - Passed
+[INFO ] 2022-07-07 22:00:00.515 [main] MyStoreV1 - ***************TestCase BuyProduct ends*****************
+[INFO ] 2022-07-07 22:00:00.520 [main] MyStoreV1 - 
+***************TestCase Search Product started*****************
+[INFO ] 2022-07-07 22:00:04.771 [main] MyStoreV1 - User Email and Password entered.
+[INFO ] 2022-07-07 22:00:07.119 [main] MyStoreV1 - Sign In link clicked
+[INFO ] 2022-07-07 22:00:09.443 [main] MyStoreV1 - Search Product testcase - Passed
+[INFO ] 2022-07-07 22:00:09.443 [main] MyStoreV1 - ***************TestCase Search Product ends*****************
+[INFO ] 2022-07-07 22:00:09.446 [main] MyStoreV1 - 
+***************TestCase verifyAddToWishlistWithoutLogin started*****************
+[INFO ] 2022-07-07 22:00:13.990 [main] MyStoreV1 - verifyAddToWishlistWithoutLogin - failed
+[INFO ] 2022-07-07 22:01:21.313 [main] MyStoreV1 - url opened
+[INFO ] 2022-07-07 22:01:23.356 [main] MyStoreV1 - ***************TestCase Verify Login starts*****************
+[INFO ] 2022-07-07 22:01:26.820 [main] MyStoreV1 - Clicked on sign in link
+[INFO ] 2022-07-07 22:01:26.936 [main] MyStoreV1 - Entered email address
+[INFO ] 2022-07-07 22:01:27.020 [main] MyStoreV1 - Entered password
+[INFO ] 2022-07-07 22:01:32.860 [main] MyStoreV1 - Clicked on sign in link..
+[INFO ] 2022-07-07 22:01:32.907 [main] MyStoreV1 - VerifyLogin - Passed
+[INFO ] 2022-07-07 22:01:32.911 [main] MyStoreV1 - ***************TestCase Verify Login ends*****************
+[INFO ] 2022-07-07 22:01:32.932 [main] MyStoreV1 - ***************TestCase Verify Sign out starts*****************
+[INFO ] 2022-07-07 22:01:54.467 [main] MyStoreV1 - url opened
+[INFO ] 2022-07-07 22:01:56.481 [main] MyStoreV1 - 
+***************TestCase Buy Product started*****************
+[INFO ] 2022-07-07 22:02:02.933 [main] MyStoreV1 - User Email and Password entered.
+[INFO ] 2022-07-07 22:02:06.072 [main] MyStoreV1 - Sign In link clicked
+[INFO ] 2022-07-07 22:02:06.141 [main] MyStoreV1 - T-shirt entered in search box
+[INFO ] 2022-07-07 22:02:08.588 [main] MyStoreV1 - clicked on search button
+[INFO ] 2022-07-07 22:02:12.274 [main] MyStoreV1 - Clicked on more button
+[INFO ] 2022-07-07 22:02:14.348 [main] MyStoreV1 - quantity 2 entereed
+[INFO ] 2022-07-07 22:02:14.448 [main] MyStoreV1 - size M entered
+[INFO ] 2022-07-07 22:02:14.535 [main] MyStoreV1 - Clicked on add to cart
+[INFO ] 2022-07-07 22:02:20.987 [main] MyStoreV1 - Clicked on proceed to checkout on product page
+[INFO ] 2022-07-07 22:02:22.887 [main] MyStoreV1 - Clicked on proceed to checkout on order summary page
+[INFO ] 2022-07-07 22:02:24.557 [main] MyStoreV1 - Clicked on proceed to checkout on order address page
+[INFO ] 2022-07-07 22:02:24.616 [main] MyStoreV1 - selecged term of service check box
+[INFO ] 2022-07-07 22:02:26.499 [main] MyStoreV1 - Clicked on proceed to checkout on order shipping page
+[INFO ] 2022-07-07 22:02:26.513 [main] MyStoreV1 - http://automationpractice.com/index.php?controller=order&multi-shipping=
+[INFO ] 2022-07-07 22:02:29.033 [main] MyStoreV1 - Clicked on pay by cheque
+[INFO ] 2022-07-07 22:02:40.355 [main] MyStoreV1 - Clicked on confirmed order
+[INFO ] 2022-07-07 22:02:40.386 [main] MyStoreV1 - VerifyBuyProduct - Passed
+[INFO ] 2022-07-07 22:02:52.633 [main] MyStoreV1 - ***************TestCase BuyProduct ends*****************
+[INFO ] 2022-07-07 22:02:52.641 [main] MyStoreV1 - 
+***************TestCase Search Product started*****************
+[INFO ] 2022-07-07 22:03:00.112 [main] MyStoreV1 - User Email and Password entered.
+[INFO ] 2022-07-07 22:03:06.047 [main] MyStoreV1 - Sign In link clicked
+[INFO ] 2022-07-07 22:03:09.969 [main] MyStoreV1 - Search Product testcase - Passed
+[INFO ] 2022-07-07 22:03:09.970 [main] MyStoreV1 - ***************TestCase Search Product ends*****************
+[INFO ] 2022-07-07 22:03:09.974 [main] MyStoreV1 - 
+***************TestCase verifyAddToWishlistWithoutLogin started*****************
+[INFO ] 2022-07-07 22:03:29.810 [main] MyStoreV1 - verifyAddToWishlistWithoutLogin - failed
