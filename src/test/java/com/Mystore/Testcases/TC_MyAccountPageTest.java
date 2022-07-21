@@ -25,7 +25,7 @@ public class TC_MyAccountPageTest extends BaseClass{
 		logger.info("Clicked on sign in link");
 
 		MyAccount myAcpg = new MyAccount(driver);
-		myAcpg.enterCreateEmailAddress("cs9233@gmail.com");
+		myAcpg.enterCreateEmailAddress("am91@gmail.com");
 		logger.info("Email address entered in create account section.");
 
 		myAcpg.clickSubmitCreate();
@@ -35,19 +35,19 @@ public class TC_MyAccountPageTest extends BaseClass{
 		accountCreationDetails accCreationPg = new accountCreationDetails(driver);
 
 		accCreationPg.selectTitleMrs();
-		accCreationPg.enterCustomerFirstName("Prachi");
-		accCreationPg.enterCustomerLastName("Gupta");
-		accCreationPg.enterPassword("cs923");
-		accCreationPg.enterAddressFirstName("Prachi");
-		accCreationPg.enterAddressLastName("Gupta");
-		accCreationPg.enterAddress("18/8 worli road");
+		accCreationPg.enterCustomerFirstName("sam");
+		accCreationPg.enterCustomerLastName("mane");
+		accCreationPg.enterPassword("am9191");
+		accCreationPg.enterAddressFirstName("sam");
+		accCreationPg.enterAddressLastName("mane");
+		accCreationPg.enterAddress("pune");
 
-		accCreationPg.enterCity("Mumbai");
+		accCreationPg.enterCity("pune");
 		accCreationPg.selectState("Alabama");
 
 		accCreationPg.enterPostcode("00000");
 		accCreationPg.selectCountry("United States");
-		accCreationPg.enterMobilePhone("9891778192");
+		accCreationPg.enterMobilePhone("9999999999");
 		accCreationPg.enterAlias("Home");
 
 		logger.info("entered user details on account creation page.");
@@ -58,13 +58,13 @@ public class TC_MyAccountPageTest extends BaseClass{
 		registeredUserAccount regUser = new registeredUserAccount(driver);
 		String userName = regUser.getUserName();
 
-		Assert.assertEquals("Prachi Gupta", userName);
+		Assert.assertEquals("sam mane", userName);
 
 		logger.info("***************TestCase Verify Registration and Login ends*****************"); 
 
 	}
 
-	@Test
+	@Test(enabled = true)
 	public void VerifyLogin() throws IOException 
 	{
 
@@ -77,10 +77,10 @@ public class TC_MyAccountPageTest extends BaseClass{
 
 		MyAccount myAcpg = new MyAccount(driver);
 
-		myAcpg.enterEmailAddress("cs923@gmail.com");
+		myAcpg.enterEmailAddress("am91@gmail.com");
 		logger.info("Entered email address");
 
-		myAcpg.enterPassword("cs923");
+		myAcpg.enterPassword("am9191");
 		logger.info("Entered password");
 
 		myAcpg.clickSignIn();
@@ -91,7 +91,7 @@ public class TC_MyAccountPageTest extends BaseClass{
 		String userName = regUser.getUserName();
 
 
-		if(userName.equals("Prachi Gupta"))
+		if(userName.equals("sam mane"))
 		{
 			logger.info("VerifyLogin - Passed");
 			//regUser.clickOnSignOut();
@@ -124,10 +124,10 @@ public class TC_MyAccountPageTest extends BaseClass{
 
 		MyAccount myAcpg = new MyAccount(driver);
 
-		myAcpg.enterEmailAddress("cs923@gmail.com");
+		myAcpg.enterEmailAddress("am91@gmail.com");
 		logger.info("Entered email address");
 
-		myAcpg.enterPassword("cs923");
+		myAcpg.enterPassword("am9191");
 		logger.info("Entered password");
 
 		myAcpg.clickSignIn();

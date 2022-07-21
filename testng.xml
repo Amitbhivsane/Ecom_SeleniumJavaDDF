@@ -8,7 +8,7 @@
     <classes>
     <class name="com.Mystore.Testcases.TC_MyAccountPageTest"/>
        
-      <class name="com.Mystore.Testcases.TC_ProductPageTest"/>
+     <class name="com.Mystore.Testcases.TC_ProductPageTest"/>
       
     </classes>
   </test> <!-- Test -->

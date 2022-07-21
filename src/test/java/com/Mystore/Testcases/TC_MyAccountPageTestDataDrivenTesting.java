@@ -26,7 +26,7 @@ public class TC_MyAccountPageTestDataDrivenTesting extends BaseClass {
 		logger.info("Clicked on sign in link");
 
 		MyAccount myAcpg = new MyAccount(driver);
-		myAcpg.enterCreateEmailAddress("cs923@gmail.com");
+		myAcpg.enterCreateEmailAddress("am91@gmail.com");
 		logger.info("Email address entered in create account section.");
 
 		myAcpg.clickSubmitCreate();
@@ -36,19 +36,19 @@ public class TC_MyAccountPageTestDataDrivenTesting extends BaseClass {
 		accountCreationDetails accCreationPg = new accountCreationDetails(driver);
 
 		accCreationPg.selectTitleMrs();
-		accCreationPg.enterCustomerFirstName("Prachi");
-		accCreationPg.enterCustomerLastName("Gupta");
-		accCreationPg.enterPassword("cs923");
-		accCreationPg.enterAddressFirstName("Prachi");
-		accCreationPg.enterAddressLastName("Gupta");
+		accCreationPg.enterCustomerFirstName("sam");
+		accCreationPg.enterCustomerLastName("mane");
+		accCreationPg.enterPassword("am9191");
+		accCreationPg.enterAddressFirstName("sam");
+		accCreationPg.enterAddressLastName("mane");
 		accCreationPg.enterAddress("18/8 worli road");
 
-		accCreationPg.enterCity("Mumbai");
+		accCreationPg.enterCity("pune");
 		accCreationPg.selectState("Alabama");
 
 		accCreationPg.enterPostcode("00000");
 		accCreationPg.selectCountry("United States");
-		accCreationPg.enterMobilePhone("9891778192");
+		accCreationPg.enterMobilePhone("9999999999");
 		accCreationPg.enterAlias("Home");
 
 		logger.info("entered user details on account creation page.");

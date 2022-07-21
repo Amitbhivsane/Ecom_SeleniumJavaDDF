@@ -2,42 +2,42 @@
 <testng-results ignored="1" total="6" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-10T17:27:10 IST" name="Suite" finished-at="2022-07-10T17:28:41 IST" duration-ms="90413">
+  <suite started-at="2022-07-21T16:37:29 IST" name="Suite" finished-at="2022-07-21T16:39:26 IST" duration-ms="117886">
     <groups>
     </groups>
-    <test started-at="2022-07-10T17:27:10 IST" name="Test" finished-at="2022-07-10T17:28:41 IST" duration-ms="90413">
+    <test started-at="2022-07-21T16:37:29 IST" name="Test" finished-at="2022-07-21T16:39:26 IST" duration-ms="117886">
       <class name="com.Mystore.Testcases.TC_MyAccountPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Mystore.Testcases.TC_MyAccountPageTest@6d763516]" started-at="2022-07-10T17:27:11 IST" name="setup" finished-at="2022-07-10T17:27:24 IST" duration-ms="12961" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Mystore.Testcases.TC_MyAccountPageTest@6d763516]" started-at="2022-07-21T16:37:29 IST" name="setup" finished-at="2022-07-21T16:37:47 IST" duration-ms="18092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyLogin()[pri:0, instance:com.Mystore.Testcases.TC_MyAccountPageTest@6d763516]" started-at="2022-07-10T17:27:24 IST" name="VerifyLogin" finished-at="2022-07-10T17:27:29 IST" duration-ms="5568" status="PASS">
+        <test-method signature="VerifyLogin()[pri:0, instance:com.Mystore.Testcases.TC_MyAccountPageTest@6d763516]" started-at="2022-07-21T16:37:47 IST" name="VerifyLogin" finished-at="2022-07-21T16:38:02 IST" duration-ms="14677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
-        <test-method signature="VerifySignOut()[pri:0, instance:com.Mystore.Testcases.TC_MyAccountPageTest@6d763516]" started-at="2022-07-10T17:27:29 IST" name="VerifySignOut" finished-at="2022-07-10T17:27:39 IST" duration-ms="10038" status="FAIL">
+        <test-method signature="VerifySignOut()[pri:0, instance:com.Mystore.Testcases.TC_MyAccountPageTest@6d763516]" started-at="2022-07-21T16:38:02 IST" name="VerifySignOut" finished-at="2022-07-21T16:38:12 IST" duration-ms="10089" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign in"}
-  (Session info: chrome=103.0.5060.114)
+  (Session info: chrome=103.0.5060.134)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-KEGK5F9', ip: '192.168.1.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f31137b2e8cd2b18a2375949eb579ef0, findElement {using=link text, value=Sign in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\amitb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60357/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f31137b2e8cd2b18a2375949eb579ef0]]>
+Command: [b394b938e496095f2578a328be7d45bd, findElement {using=link text, value=Sign in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\amitb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54224/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b394b938e496095f2578a328be7d45bd]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign in"}
-  (Session info: chrome=103.0.5060.114)
+  (Session info: chrome=103.0.5060.134)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-KEGK5F9', ip: '192.168.1.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f31137b2e8cd2b18a2375949eb579ef0, findElement {using=link text, value=Sign in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\amitb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60357/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f31137b2e8cd2b18a2375949eb579ef0
+Command: [b394b938e496095f2578a328be7d45bd, findElement {using=link text, value=Sign in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\amitb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54224/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b394b938e496095f2578a328be7d45bd
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -89,29 +89,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Mystore.Testcases.TC_MyAccountPageTest@6d763516]" started-at="2022-07-10T17:27:39 IST" name="tearDown" finished-at="2022-07-10T17:27:39 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Mystore.Testcases.TC_MyAccountPageTest@6d763516]" started-at="2022-07-21T16:38:12 IST" name="tearDown" finished-at="2022-07-21T16:38:12 IST" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Mystore.Testcases.TC_MyAccountPageTest -->
       <class name="com.Mystore.Testcases.TC_ProductPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Mystore.Testcases.TC_ProductPageTest@5c5eefef]" started-at="2022-07-10T17:27:39 IST" name="setup" finished-at="2022-07-10T17:27:50 IST" duration-ms="10799" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Mystore.Testcases.TC_ProductPageTest@5c5eefef]" started-at="2022-07-21T16:38:12 IST" name="setup" finished-at="2022-07-21T16:38:22 IST" duration-ms="9568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyBuyProduct()[pri:0, instance:com.Mystore.Testcases.TC_ProductPageTest@5c5eefef]" started-at="2022-07-10T17:27:50 IST" name="VerifyBuyProduct" finished-at="2022-07-10T17:28:26 IST" duration-ms="36194" status="PASS">
+        <test-method signature="VerifyBuyProduct()[pri:0, instance:com.Mystore.Testcases.TC_ProductPageTest@5c5eefef]" started-at="2022-07-21T16:38:22 IST" name="VerifyBuyProduct" finished-at="2022-07-21T16:39:12 IST" duration-ms="50301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBuyProduct -->
-        <test-method signature="VerifySearchProduct()[pri:0, instance:com.Mystore.Testcases.TC_ProductPageTest@5c5eefef]" started-at="2022-07-10T17:28:26 IST" name="VerifySearchProduct" finished-at="2022-07-10T17:28:34 IST" duration-ms="7172" status="PASS">
+        <test-method signature="VerifySearchProduct()[pri:0, instance:com.Mystore.Testcases.TC_ProductPageTest@5c5eefef]" started-at="2022-07-21T16:39:12 IST" name="VerifySearchProduct" finished-at="2022-07-21T16:39:20 IST" duration-ms="8022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchProduct -->
-        <test-method signature="verifyAddToWishlistWithoutLogin()[pri:0, instance:com.Mystore.Testcases.TC_ProductPageTest@5c5eefef]" started-at="2022-07-10T17:28:34 IST" name="verifyAddToWishlistWithoutLogin" finished-at="2022-07-10T17:28:40 IST" duration-ms="6863" status="PASS">
+        <test-method signature="verifyAddToWishlistWithoutLogin()[pri:0, instance:com.Mystore.Testcases.TC_ProductPageTest@5c5eefef]" started-at="2022-07-21T16:39:20 IST" name="verifyAddToWishlistWithoutLogin" finished-at="2022-07-21T16:39:26 IST" duration-ms="5815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToWishlistWithoutLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Mystore.Testcases.TC_ProductPageTest@5c5eefef]" started-at="2022-07-10T17:28:40 IST" name="tearDown" finished-at="2022-07-10T17:28:41 IST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Mystore.Testcases.TC_ProductPageTest@5c5eefef]" started-at="2022-07-21T16:39:26 IST" name="tearDown" finished-at="2022-07-21T16:39:26 IST" duration-ms="449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
